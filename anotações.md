@@ -36,3 +36,7 @@ o "-- " do format significa que as flags do outro script estão sendo preservada
 - Seria muito legal se pudessemos evitar commits com esse tipo de erro =D
 - exemplo: ``cat .git/hooks/pre-commit``:
   ele acrescenta o script de validate ao pré-commit na cfg de .huskyrc
+
+- o prettier plugin está formatando no save e evitando muitos erros de validação, mas para dar a opção de setup sem o plugin do prettier:
+
+é pra isso que serve o lint-staged e a sua configuração.
